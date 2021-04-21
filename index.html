@@ -1,11 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
+	
+	<link rel="shortcut icon" type="image/x-icon" href="images.ico"> 
 	<title>Calculator</title>
 	<style>
 
+	    .p1{
+	    	margin: auto;
+	    	margin-left: 35%;
+	   		font-family: "Brush Script MT", cursive; 
+	   		font-size: 20px; 
+	   		color: #ecbcb4;
+			font-size: 45px;
+			text-decoration: none;
 
-		#input{
+
+       }
+
+       #input{
 			display: inline-block;
 			padding: 20px;
 			width: 183px;
@@ -13,6 +26,7 @@
 			border-radius: 10px;				
 			border: none;
 			background-color: white;
+			text-decoration: none;
 
 
 
@@ -22,6 +36,7 @@
   			background-color: 	#DCDCDC;
   			transition-duration: 0.4s;
   			border: -2px solid 	#DCDCDC;
+  			text-decoration: none;
 
   			
 		}
@@ -43,7 +58,7 @@
 		}
 
 		#clear{
-			font-stretch:ultra-expanded;
+			
 			border-radius: 5px;
 			border: none;
 			padding: 5px;
@@ -61,11 +76,9 @@
 	    	width: 226px;
 	    	margin-left: 50%;
 	    	margin:auto;
-	        margin-top: 130px;
+	        margin-top: 200px;
 			border-radius: 20px; 
-		    border-style: none;
 		    background-color: #A9A9A9;
-		    color: black;
 		    padding: 20px ;
 		    border-color: gray;
 		    font-size: 20px;
@@ -95,17 +108,23 @@
   			
 
   		}
+
+		
 	</style>
 </head>
-<body>
-
+<body style="background-color: #002800">
+	   
+	 <a href="index.html" class="p1">Online-Calcy</a>
+		  
+    
 	
+
   	<div class="formsstyle">	
 			<form name="forms" >
 
 			<input type="text" name="answer" placeholder="ENTER DIGIT" id="input"><br><br><br>
 
-			<hr size="10" color="#808080" id="hr"></hr><br/>
+			<hr size="10" color="#002800" id="hr"></hr><br/>
 				
 			<input type="button" value="    1    " onclick="forms.answer.value += '1'" id="allbtncol">
 			<input type="button" value="    2    " onclick="forms.answer.value += '2'" id="allbtncol">
